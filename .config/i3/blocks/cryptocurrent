@@ -1,0 +1,4 @@
+#!/bin/bash
+
+RAW=`curl "https://api.coinmarketcap.com/v1/ticker/${BLOCK_INSTANCE}/" -s | jq -r '.[0].price_usd'`
+printf "%'.0f\n" $RAW
