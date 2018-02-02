@@ -6,8 +6,8 @@ API_KEY="12769dbd0f9368ea55ca71acbbdf0ab1"
 # Check on http://openweathermap.org/find
 CITY_ID="${BLOCK_INSTANCE}"
 
-URGENT_LOWER=0
-URGENT_HIGHER=30
+URGENT_LOWER=-10
+URGENT_HIGHER=35
 
 ICON_SUNNY=""
 ICON_CLOUDY=""
