@@ -29,9 +29,9 @@ function fish_prompt
     else
         set_color red
     end
-
+    
     echo "--------------------------------------------------------------------------------"
-
+    
     # Print the username
     set_color normal
     printf "%s" $USER
